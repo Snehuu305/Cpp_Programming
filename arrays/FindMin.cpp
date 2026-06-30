@@ -26,18 +26,3 @@ class FindMin
     }
 };
 
-int main()
-{
-    FindMin fMin;
-
-    int nums1[] = {3, 4, 5, 1, 2};
-    std::cout << "Minimum number in [3, 4, 5, 1, 2] is : " << fMin.minNum(nums1, 5) << "\n";
-
-    int nums2[] = {4, 5, 6, 7, 0, 1, 2};
-    std::cout << "Minimum number in [4, 5, 6, 7, 0, 1, 2] is : " << fMin.minNum(nums2, 7) << "\n";
-
-    int nums3[] = {11, 13, 15, 17};
-    std::cout << "Minimum number in [11, 13, 15, 17] is : " << fMin.minNum(nums3, 4) << "\n";
-
-    return 0;
-}
