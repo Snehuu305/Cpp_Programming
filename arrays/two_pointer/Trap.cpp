@@ -6,14 +6,20 @@ public:
         int totalWater = 0;
 
         while (left < right) {
-            if (height[left] < height[right]) {
-                if (height[left] >= leftMax) {
+            if (height[left] < height[right])
+            {
+                if (height[left] >= leftMax)
+                {
                     leftMax = height[left];
-                } else {
+                } 
+                else 
+                {
                     totalWater += leftMax - height[left];
                 }
                 left++;
-            } else {
+            } 
+            else
+            {
                 if (height[right] >= rightMax) {
                     rightMax = height[right];
                 } else {
