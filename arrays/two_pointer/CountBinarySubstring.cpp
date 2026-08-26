@@ -4,7 +4,8 @@ using namespace std;
 class CountBinarySubstring
 {
 public:
-    int countBinarySubstrings(string s) {
+    int countBinarySubstrings(string s)
+{
         int totalCount = 0;
         int currentRunLength = 1;
         int previousRunLength = 0;
