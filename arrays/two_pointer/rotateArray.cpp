@@ -1,6 +1,7 @@
 class Solution {
 public:
-    void rotate(vector<int>& arr, int k) {
+    void rotate(vector<int>& arr, int k)
+{
         if (arr.empty() || k == 0) return;
         
         int n = arr.size();
