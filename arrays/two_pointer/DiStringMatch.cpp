@@ -3,7 +3,8 @@ using namespace std;
 
 class Solution {
 public:
-    vector<int> diStringMatch(string s) {
+    vector<int> diStringMatch(string s)
+{
         int n = s.length();
         vector<int> result(n + 1);
         int low = 0;
