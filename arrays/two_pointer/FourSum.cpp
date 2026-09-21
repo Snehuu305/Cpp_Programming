@@ -1,6 +1,6 @@
 class Solution {
 public:
-    vector<vector<int>> fourSum(vector<int>& nums, int target) {
+    vector<vector<int>> fourSum(vector<int>& nums, int target){
         vector<vector<int>> result;
         int n = nums.size();
         sort(nums.begin(), nums.end());
