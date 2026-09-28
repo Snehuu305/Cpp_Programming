@@ -1,4 +1,4 @@
-class Solution {
+class Solution  {
 public:
     long long gcdSum(vector<int>& nums) {
         int n = nums.size();
