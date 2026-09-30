@@ -3,7 +3,7 @@
 #include <unordered_set>
 using namespace std;
 
-class DistinctAverages {
+class DistinctAverages  {
 public:
     int distinctAverages(vector<int>& nums) {
         sort(nums.begin(), nums.end());
