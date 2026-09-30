@@ -1,7 +1,6 @@
 #include<iostream>
 
-class FindMin
-{
+class FindMin {
     public :
 
     int minNum(int nums[], int size)
