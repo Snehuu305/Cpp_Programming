@@ -1,7 +1,6 @@
 class Solution {
 public:
-    vector<long long> distance(vector<int>& nums)
-{
+    vector<long long> distance(vector<int>& nums) {
         int n = nums.size();
         vector<long long> arr(n, 0);
 
