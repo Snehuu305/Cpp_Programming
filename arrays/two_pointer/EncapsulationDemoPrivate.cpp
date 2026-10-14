@@ -2,13 +2,11 @@
 using namespace std;
 
 //Encapsulation
-class Marvellous 
-{
+class Marvellous {
    //Access Specifier (By defaoult private)
    int No1, No2;
    
-   void fun()
-   {
+   void fun()  {
      cout<<"Inside fun\n"; //Behaviour
 
    }
