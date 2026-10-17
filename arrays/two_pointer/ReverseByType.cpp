@@ -1,6 +1,8 @@
-class Solution {
+class Solution 
+{
 public:
-    string reverseByType(string s) {
+    string reverseByType(string s) 
+{
 
         int start = 0;
         int end = s.length() - 1;
