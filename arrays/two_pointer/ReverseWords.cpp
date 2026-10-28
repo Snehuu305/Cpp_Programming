@@ -4,7 +4,8 @@ using namespace std;
 class Solution
 {
 public:
-    string reverseWords(string s) {
+    string reverseWords(string s) 
+{
         
         int i = 0;
         int j = 0;
